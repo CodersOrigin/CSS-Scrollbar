@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #141414;
+}
+h1 {
+  text-align: center;
+  font-size: 28px;
+  padding: 25px;
+  letter-spacing: 3px;
+  font-family: "Fredoka One", cursive;
+  color: #ffffff;
+}
+
+
+/* scrollbar-------- */
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* scrollbar thumb------- */
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffe53b;
+  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+  border-radius: 25px;
+}
+
+/* scrollbar track---- */
+
+::-webkit-scrollbar-track{
+    background-color: #343C44;
+    border-radius: 30px;
+}
